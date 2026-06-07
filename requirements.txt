@@ -1,0 +1,2 @@
+markdown == 3.10.2 # As of 7-6-2026
+pelican == 4.12.0 # As of 7-6-2026

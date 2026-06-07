@@ -13,7 +13,8 @@ feed_filenames = ["rss.xml", "atom.xml"]
 
 # Optional: enable tags
 taxonomies = [
-    {name = "tags"}
+    { name = "categories", feed = true },
+    { name = "tags", feed = true },
 ]
 
 # Code highlighting
@@ -34,7 +35,7 @@ accent_color = "red"
 background_color = "dark"
 
 # The logo text - defaults to "Terminimal theme"
-logo_text = "Terminimal theme"
+logo_text = "Daniel's Blog 🤖"
 
 # The logo link - defaults to base_url.
 #logo_home_link = "/take/me/away!"
@@ -61,9 +62,8 @@ menu_items = [
     {name = "about me", url = "$BASE_URL/about"},
 
     # set newtab to true to make the link open in new tab
-    {name = "github", url = "https://github.com/pawroman/zola-theme-terminimal", newtab = true},
+    {name = "github", url = "https://github.com/NotChrisBr0wn", newtab = true},
 ]
-
 # Whether to show links to earlier and later (aka. higher/lower) posts
 # on each post page (defaults to true).
 enable_post_view_navigation = true
